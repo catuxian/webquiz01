@@ -32,5 +32,5 @@
     print_r($data);
     $db->save($data);
 
-    // to("../backend.php?do={$table}");
+    to("../backend.php?do={$table}");
 ?>
